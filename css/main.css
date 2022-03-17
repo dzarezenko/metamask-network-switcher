@@ -1,0 +1,25 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+a img {
+  border: none;
+  vertical-align: middle;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  width: 32px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 20px;
+}
