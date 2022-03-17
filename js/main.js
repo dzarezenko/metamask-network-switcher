@@ -65,6 +65,17 @@ const NETWORKS = {
     ],
     blockExplorerUrls: ['https://testnet.bscscan.com/']
   },
+  FANTOM_MAINNET: {
+    chainId: `0x${(250).toString(16)}`,
+    chainName: "Fantom Opera",
+    nativeCurrency: {
+      name: 'Fantom',
+      symbol: 'FTM',
+      decimals: 18
+    },
+    rpcUrls: ["https://rpc.ftm.tools/"],
+    blockExplorerUrls: ['https://ftmscan.com/']
+  },
 }
 
 async function addNetwork(e, config) {
