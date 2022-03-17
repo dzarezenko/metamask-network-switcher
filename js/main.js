@@ -76,6 +76,17 @@ const NETWORKS = {
     rpcUrls: ["https://rpc.ftm.tools/"],
     blockExplorerUrls: ['https://ftmscan.com/']
   },
+  POLYGON_MAINNET: {
+    chainId: `0x${(137).toString(16)}`,
+    chainName: "Polygon",
+    nativeCurrency: {
+      name: 'Polygon',
+      symbol: 'MATIC',
+      decimals: 18
+    },
+    rpcUrls: ["https://polygon-rpc.com/"],
+    blockExplorerUrls: ['https://explorer.matic.network/']
+  },
 }
 
 async function addNetwork(e, config) {
