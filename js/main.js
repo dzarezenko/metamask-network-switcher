@@ -1,4 +1,15 @@
 const NETWORKS = {
+  ARBITRUM_MAINNET: {
+    chainId: `0x${(42161).toString(16)}`,
+    chainName: "Arbitrum One",
+    nativeCurrency: {
+      name: 'Arbitrum ETH',
+      symbol: 'AETH',
+      decimals: 18
+    },
+    rpcUrls: ["https://arb1.arbitrum.io/rpc"],
+    blockExplorerUrls: ['https://arbiscan.io']
+  },
   AURORA_MAINNET: {
     chainId: `0x${(1313161554).toString(16)}`,
     chainName: "Aurora Mainnet",
