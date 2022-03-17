@@ -20,7 +20,18 @@ const NETWORKS = {
     },
     rpcUrls: ["https://mainnet.aurora.dev"],
     blockExplorerUrls: ['https://explorer.mainnet.aurora.dev/']
-  }
+  },
+  AVALANCHE_MAINNET: {
+    chainId: `0x${(43114).toString(16)}`,
+    chainName: "Avalanche Mainnet C-Chain",
+    nativeCurrency: {
+      name: 'Avalanche',
+      symbol: 'AVAX',
+      decimals: 18
+    },
+    rpcUrls: ["https://api.avax.network/ext/bc/C/rpc"],
+    blockExplorerUrls: ['https://snowtrace.io/']
+  },
 }
 
 async function addNetwork(e, config) {
