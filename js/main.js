@@ -32,6 +32,39 @@ const NETWORKS = {
     rpcUrls: ["https://api.avax.network/ext/bc/C/rpc"],
     blockExplorerUrls: ['https://snowtrace.io/']
   },
+  BSC_MAINNET: {
+    chainId: `0x${(56).toString(16)}`,
+    chainName: "Binance Smart Chain",
+    nativeCurrency: {
+      name: 'BNB',
+      symbol: 'BNB',
+      decimals: 18
+    },
+    rpcUrls: [
+      "https://bsc-dataseed.binance.org/",
+      "https://bsc-dataseed1.defibit.io/",
+      "https://bsc-dataseed1.ninicoin.io/"
+    ],
+    blockExplorerUrls: ['https://bscscan.com/']
+  },
+  BSC_TESTNET: {
+    chainId: `0x${(97).toString(16)}`,
+    chainName: "Binance Smart Chain (testnet)",
+    nativeCurrency: {
+      name: 'BNB',
+      symbol: 'BNB',
+      decimals: 18
+    },
+    rpcUrls: [
+      "https://data-seed-prebsc-1-s1.binance.org:8545/",
+      "https://data-seed-prebsc-2-s1.binance.org:8545/",
+      "https://data-seed-prebsc-1-s2.binance.org:8545/",
+      "https://data-seed-prebsc-2-s2.binance.org:8545/",
+      "https://data-seed-prebsc-1-s3.binance.org:8545/",
+      "https://data-seed-prebsc-2-s3.binance.org:8545/"
+    ],
+    blockExplorerUrls: ['https://testnet.bscscan.com/']
+  },
 }
 
 async function addNetwork(e, config) {
