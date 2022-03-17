@@ -76,6 +76,17 @@ const NETWORKS = {
     rpcUrls: ["https://rpc.ftm.tools/"],
     blockExplorerUrls: ['https://ftmscan.com/']
   },
+  HARMONY_MAINNET: {
+    chainId: `0x${(1666600000).toString(16)}`,
+    chainName: "Harmony Shard 0",
+    nativeCurrency: {
+      name: 'Harmony',
+      symbol: 'ONE',
+      decimals: 18
+    },
+    rpcUrls: ["https://api.harmony.one"],
+    blockExplorerUrls: ['https://explorer.harmony.one/']
+  },
   POLYGON_MAINNET: {
     chainId: `0x${(137).toString(16)}`,
     chainName: "Polygon",
