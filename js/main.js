@@ -34,7 +34,7 @@ const NETWORKS = {
   },
   BSC_MAINNET: {
     chainId: `0x${(56).toString(16)}`,
-    chainName: "Binance Smart Chain",
+    chainName: "BNB Chain",
     nativeCurrency: {
       name: 'BNB',
       symbol: 'BNB',
@@ -49,7 +49,7 @@ const NETWORKS = {
   },
   BSC_TESTNET: {
     chainId: `0x${(97).toString(16)}`,
-    chainName: "Binance Smart Chain (testnet)",
+    chainName: "BNB Chain (testnet)",
     nativeCurrency: {
       name: 'BNB',
       symbol: 'BNB',
