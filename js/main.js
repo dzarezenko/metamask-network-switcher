@@ -87,6 +87,17 @@ const NETWORKS = {
     rpcUrls: ["https://api.harmony.one"],
     blockExplorerUrls: ['https://explorer.harmony.one/']
   },
+  OPTIMISM_MAINNET: {
+    chainId: `0x${(10).toString(16)}`,
+    chainName: "Optimism OΞ",
+    nativeCurrency: {
+      name: 'Optimism',
+      symbol: 'ETH',
+      decimals: 18
+    },
+    rpcUrls: ["https://mainnet.optimism.io"],
+    blockExplorerUrls: ['https://optimistic.etherscan.io/']
+  },
   POLYGON_MAINNET: {
     chainId: `0x${(137).toString(16)}`,
     chainName: "Polygon",
